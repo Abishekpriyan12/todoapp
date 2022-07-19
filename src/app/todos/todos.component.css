@@ -1,0 +1,29 @@
+
+.todo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+    
+ 
+ }
+ 
+ .input{
+     margin: 50px;   
+     display: flex;
+     justify-content: center;
+ }
+ 
+  .head{
+      display: flex;
+      margin: 50px;
+      justify-content: center;
+      font-weight: 600;
+  }
+ 
+  .todo.done .content{
+      text-decoration: line-through;
+  }
+ 
